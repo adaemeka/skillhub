@@ -1475,6 +1475,9 @@ const states = [
   "rivers",
 ];
 
+
+test()
+
 const artisanGroup = document.getElementById("search-input");
 for (i = 0; i < works.length; i++) {
   var newOption = document.createElement("option");
@@ -1503,4 +1506,8 @@ document.querySelectorAll(".ids").forEach((button) => {
 function findArtisan() {
   const input = document.getElementById("search-input").value.toLowerCase();
   console.log(input);
+}
+
+function test() {
+  console.log('testing git');
 }
